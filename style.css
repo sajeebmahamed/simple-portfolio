@@ -1,0 +1,125 @@
+/*******************************
+= 1. Global CSS / Normalization
+= 2. Top-Banner Section
+= 3. Dream Section
+= 4. Experiance Section
+= 5. Footer Section
+********************************/
+
+
+/* Global CSS/Normalization */
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 46px;
+    color: dimgray;
+}
+h2{
+    font-size: 30px;
+    color: dimgray;
+}
+h3{
+    font-size: 24px;
+    color: dimgray;
+}
+p{
+    color: dimgray;
+    font-weight: 500;
+    line-height: 24px;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+/* top-banner css start*/
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    transition: ease 0.4s all;
+}
+.half-width img:hover{
+    transform: scale(1.1,1.1);
+}
+.orange{
+    color: orange;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#f5af19,#ff4e3a);
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 400;
+}
+/* top-banner css end*/
+
+/* dream css start */
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.round-area{
+    box-shadow: 10px 10px 40px grey;
+    height: 75%;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: ease 0.4s all;
+}
+.round-area:hover{
+    transform: scale(1.1,1.1);
+}
+/* dream css end */
+
+/* experiance css start */
+.experiance{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiance h1{
+    padding-left: 67px;
+}
+#senior{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg,#f5af19,#FF468F);
+    border-image-slice: 1;
+}
+#junior{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+/* experiance css end */
+
+/* footer css start */
+footer{
+    text-align: center;
+    font-size: 14px;
+}
+/* footer css end */
+
+/* Media Query Start */
+/* Notebook Device Meida Query */
+@media (min-width: 768px) and (max-width: 992px){
+    /* Notebook Device css code goes here */
+}
+/* Tablet Device Media Query */
+@media(min-width: 500px) and (max-width: 768px){
+    /* Tablet Device css code goes here */
+}
+/* Mobile Device Media Query */
+@media screen and (max-width: 500px){
+    /* Mobile Device css code goes here */
+}
