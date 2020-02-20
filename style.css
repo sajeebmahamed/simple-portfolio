@@ -40,6 +40,19 @@ section{
     margin-left: 5%;
     padding-left: 2%;
 }
+.ani{
+    animation: top 3s forwards 0s ease;
+}
+@keyframes top{
+    0%{
+        transform: translateY(-25%);
+        opacity: 0;
+    }
+    20%{
+        transform: rotate(xx) translateY(0);
+        opacity: 1;
+    }
+}
 .half-width img{
     width: 100%;
     transition: ease 0.4s all;
@@ -70,6 +83,7 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+
 .round-area{
     box-shadow: 10px 10px 40px grey;
     height: 75%;
@@ -227,9 +241,12 @@ footer{
         width: 50%;
         position: absolute;
         left: 5%;
-        top: 155%;
+        top: 140%;
     }
     /* Experiance Section */
+    .experiance{
+        padding-top: 150px;
+    }
     .experiance h1 {
         font-size: 22px;
         margin: 13px auto;
