@@ -186,7 +186,7 @@ footer{
 /* Mobile Device Media Query */
 @media screen and (max-width: 500px){
     .half-width {
-        width: 100%;
+        width: 92%;
     }
     section {
         padding-bottom: 10px;
@@ -227,7 +227,7 @@ footer{
         width: 50%;
         position: absolute;
         left: 5%;
-        top: 125%;
+        top: 122%;
     }
     /* Experiance Section */
     .experiance h1 {
