@@ -31,7 +31,7 @@ p{
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 /* top-banner css start*/
 .half-width{
@@ -87,6 +87,7 @@ section{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    padding-bottom: 20px;
 }
 .experiance h1{
     padding-left: 67px;
@@ -113,13 +114,141 @@ footer{
 /* Media Query Start */
 /* Notebook Device Meida Query */
 @media (min-width: 768px) and (max-width: 992px){
-    /* Notebook Device css code goes here */
+    .dream{
+        padding-bottom: 0px;
+    }
+    #senior,#junior{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    #senior h1{
+        padding-left: 0px;
+    }
+    #junior h1{
+        padding-left: 0px;
+    }
+    footer {
+        width: 100%;
+        font-size: 21px;
+        padding: 20px 0px;
+        float: left;
+    }
 }
 /* Tablet Device Media Query */
 @media(min-width: 500px) and (max-width: 768px){
-    /* Tablet Device css code goes here */
+    section{
+        padding-bottom: 72px;
+    }
+    h2,h3{
+        font-size: 25px;
+    }
+    /* Top banner section  */
+    .dream{
+        padding-bottom: 0px;
+    }
+    .top-banner img{
+        width: 100%;
+        margin-top: 42%;
+        margin-left: -8%;
+    }
+    .top-banner h1{
+        font-size: 32px;
+    }
+    /* Dream Section */
+    .dream h1{
+        font-size: 32px;
+    }
+    .dream p {
+        width: 96%;
+        padding-bottom: 5%;
+    }
+    /* experiance section */
+    .experiance h1{
+        font-size: 32px;
+    }
+    #senior,#junior{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    #senior p{
+        width: 98%;
+    }
+    #junior p{
+        width: 98%;
+    }
+    footer {
+        width: 100%;
+        font-size: 21px;
+        padding: 20px 0px;
+        float: left;
+    }
 }
 /* Mobile Device Media Query */
 @media screen and (max-width: 500px){
-    /* Mobile Device css code goes here */
+    .half-width {
+        width: 100%;
+    }
+    section {
+        padding-bottom: 10px;
+    }
+    .top-banner h1 {
+        font-size: 22px;
+        text-align: center;
+        margin: 13px auto;
+    }
+    h2,h3{
+        font-size: 16px;
+    }
+    p {
+        font-size: 12px;
+        width: 88%;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .top-banner img{
+        width: 50%;
+        margin-left: 40%;
+        margin-top: -8%;
+    }
+     .top-banner p{
+         margin-bottom: 30px;
+     }
+
+     /* Dream Section */
+    .dream {
+        background-size: 15%;
+    }
+    .dream h1 {
+        font-size: 22px;
+        margin: 13px auto;
+    }
+    .dream img{
+        width: 50%;
+        position: absolute;
+        left: 5%;
+        top: 125%;
+    }
+    /* Experiance Section */
+    .experiance h1 {
+        font-size: 22px;
+        margin: 13px auto;
+    }
+    #senior {
+        width: 85%;
+        height: 40%;
+        margin-bottom: 15px;
+    }
+    #junior {
+        width: 85%;
+        height: 40%;
+        margin-bottom: 15px;
+    }
+    .round-area h1{
+        margin-left: -16%;
+    }
+    .round-area p{
+        width: 100%;
+    }
+
 }
